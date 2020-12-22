@@ -1,4 +1,3 @@
-
 const Discord = require('discord.js');
 const db = require('quick.db')
 module.exports.run = async (bot, message, args, member, client, level) => {
@@ -17,6 +16,7 @@ const alyen = new Discord.RichEmbed()
         .setTimestamp()
         message.channel.send(alyen)
         message.react(alyenemoji)
+  
 } 
 exports.conf = {
     enabled: true,
