@@ -7,8 +7,8 @@ module.exports.run = async (bot, message, args, member, client, level) => {
   if (!message.member.roles.find('name', 'Alyen')) return message.channel.send('Yetkin yetmiyor.');
   let user = message.guild.member(message.mentions.users.first()) || message.guild.members.get(args[0]);
   if (!user) return message.reply("**Etiket Atmayı Unuttun!**");
-  user.addRole('758987998456709130')  ///verilicek rol
-  user.removeRole('758988001660895242')   //alınıcak rol
+  user.addRole('')  ///verilicek rol
+  user.removeRole('')   //alınıcak rol
 const alyen = new Discord.RichEmbed()
         .setAuthor(message.author.tag, message.author.avatarURL)
         .setDescription(`${user}, **Adlı üyenin __kayıt__ işlemi başarılı bir şekilde yapıldı.**`)
