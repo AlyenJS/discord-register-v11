@@ -8,8 +8,8 @@ module.exports.run = async (bot, message, args, member, client, level) => {
   let user = message.guild.member(message.mentions.users.first()) || message.guild.members.get(args[0]);
   if (!user) return message.reply("**Etiket Atmayı Unuttun!**");
   
-  user.addRole('758987997764124692') ///verilicek rol
-  user.removeRole('758988001660895242')  //alınıcak kayıtsız rolü
+  user.addRole('') ///verilicek rol
+  user.removeRole('')  //alınıcak kayıtsız rolü
 const alyen = new Discord.RichEmbed()
         .setAuthor(message.author.tag, message.author.avatarURL)
         .setDescription(`${user}, **Kaydınız Başarıyla Gerçekleşti! İyi Eğlenceler.**`)
