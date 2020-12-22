@@ -12,7 +12,7 @@ module.exports.run = async (bot, message, args, member, client, level) => {
   user.removeRole('')  //alınıcak kayıtsız rolü
 const alyen = new Discord.RichEmbed()
         .setAuthor(message.author.tag, message.author.avatarURL)
-        .setDescription(`${user}, **Kaydınız Başarıyla Gerçekleşti! İyi Eğlenceler.**`)
+        .setDescription(`${user}, **Adlı üyenin __kayıt__ işlemi başarılı bir şekilde yapıldı.**`)
         .setColor('BLACK')
         .setTimestamp()
         message.channel.send(alyen)
