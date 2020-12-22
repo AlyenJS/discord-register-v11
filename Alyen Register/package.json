@@ -1,0 +1,33 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "Alyen tarafından hazırlanan kayıt altyapısı..",
+  "main": "alyen.js",
+  "scripts": {
+    "start": "node alyen.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "discord.js": "^11.5.1",
+    "quick.db": "^6.3.2",
+    "jimp": "^0.6.4",
+    "moment": "^2.28.0",
+    "chalk": "^4.1.0",
+    "moment-duration-format": "^2.3.2"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
