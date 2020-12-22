@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "express": "^4.16.4",
-    "discord.js": "^11.5.1",
+    "discord.js": "^11.6.4",
     "quick.db": "^6.3.2",
     "jimp": "^0.6.4",
     "moment": "^2.28.0",
