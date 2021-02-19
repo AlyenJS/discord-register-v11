@@ -1,6 +1,6 @@
-Gereken şeyler dosyalarda belirtilmiştir.
+Doldurmanız gereken yerler dosyalarda verilmiştir.
 
-Altyapı içerisinde başlat komutu yoktur dilerseniz powershell üzerinden açılış işlemini gerçekleştirebilirsiniz.
+```npm install``` şeklinde moddülleri kurup ```node alyen.js``` şeklinde start verebilirsiniz
 
 
 
