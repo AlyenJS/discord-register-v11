@@ -6,6 +6,8 @@ Doldurmanız gereken yerler dosyalarda verilmiştir.
 
 ```npm install``` şeklinde moddülleri kurup ```node alyen.js``` şeklinde start verebilirsiniz
 
+Destek almak için yukarıdaki discord linkine tıklayabilirsiniz.
+
 
 
 
